@@ -132,9 +132,8 @@ if args.natask == 'objrel':
     stimuli.sort(key=lambda x: x[7], reverse=True) # feature 1
     stimuli.sort(key=lambda x: x[5], reverse=True) # feature 1
     stimuli.sort(key=lambda x: x[3], reverse=True) # feature 2
-#     [print(s.encode('utf8').decode(sys.stdout.encoding))]
-    for idx, s in enumerate(stimuli):
-        print('\n{})'.format(idx))
-        for i in s:
-            print(i.encode('utf8').decode(sys.stdout.encoding) + '\t')
-#     [print('\t'.join(l) for l in stimuli]
+#     for idx, s in enumerate(stimuli):
+#         print('\n{})'.format(idx))
+#         for i in s:
+#             print(i.encode('utf8').decode(sys.stdout.encoding) + '\t')
+    [print('\t'.join(l)) for l in stimuli]
