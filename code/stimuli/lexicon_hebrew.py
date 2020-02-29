@@ -1,16 +1,19 @@
-###################
-###### DET ########
-###################
+# -*- coding: utf-8 -*-
+
+
+"""
+DET
+"""
 # DEFINITE
 # --------
 # Initialization
-
 determinants = {}
 definit = {}
 a = {}
 for gender in ['masculine', 'feminine']:
     definit[gender] = {}
     a[gender] = {}
+
 # Tokens
 definit['masculine']['singular'] = ['The']
 definit['masculine']['plural'] = ['The']
@@ -24,39 +27,71 @@ a['feminine']['plural'] = ['']
 
 determinants = {'definit':definit, 'a':a}
 
-###################
-###### NOUNS ######
-###################
+
+"""
+NOUNS
+"""
 # Initialization
 nouns = {}
 for gender in ['masculine', 'feminine']:
     nouns[gender] = {}
-# Tokens
-nouns['masculine']['singular'] = ['brother', 'student', 'father', 'son', 'boy', 'friend', 'man', 'actor', 'farmer']
-nouns['masculine']['plural'] = ['brothers', 'students', 'fathers', 'sons', 'boys', 'friends', 'men', 'actors', 'farmers']
-nouns['feminine']['singular'] = ['sister', 'student', 'mother', 'daughter', 'girl', 'friend', 'woman', 'actress', 'farmer']
-nouns['feminine']['plural'] = ['sisters', 'students', 'mothers', 'daughters', 'girls', 'friends', 'women', 'actresses', 'farmers']
 
-# LOCATION NOUNS
-# --------------
+# Tokens
+#nouns['masculine']['singular'] = ["אורח","אמן","אמריקאי","בחור","גנב","גנן","דוגמן","דוד","חבר","סופר","טבח","ילד","פקיד","מאמן","מדריך","מהנדס","מחנך","מנהיג","מנהל","מנתח","נהג","נשיא","סטודנט","עובד","רופא","שוטר","שחקן","שכן","תלמיד","תייר"]
+    
+#nouns['masculine']['plural'] = ["אורחים","אמנים","אמריקאיים","בחורים","גנבים","גננים","דוגמנים","דודים","חברים","סופרים","טבחים","ילדים","פקידים","מאמנים","מדריכים","מהנדסים","מחנכים","מנהיגים","מנהלים","מנתחים","נהגים","נשיאים","סטודנטים","עובדים","רופאים","שוטרים","שחקנים","שכנים","תלמידים","תיירים"]
+    
+#nouns['feminine']['singular'] = ["אורחת","אמנית","אמריקאית","בחורה","גנבת","גננית","דוגמנית","דודה","חברה","סופרת","טבחית","ילדה","פקידה","מאמנת","מדריכה","מהנדסת","מחנכת","מנהיגה","מנהלת","מנתחת","נהגת","נשיאה","סטודנטית","עובדת","רופאה","שוטרת","שחקנית","שכנה","תלמידה","תיירת"]
+    
+#nouns['feminine']['plural'] = ["אורחות","אמניות","אמריקאיות","בחורות","גנבות","גננות","דוגמניות","דודות","חברות","סופרות","טבחיות","ילדות","פקידות","מאמנות","מדריכות","מהנדסות","מחנכות","מנהיגות","מנהלות","מנתחות","נהגות","נשיאות","סטודנטיות","עובדות","רופאות","שוטרות","שחקניות","שכנות","תלמידות","תיירות"]
+# Tokens
+nouns['masculine']['singular'] = ['אורח', 'אמן', 'אמריקאי', 'בחור', 'דוגמן', 'חבר', 'סופר', 'ילד', 'פקיד', 'מדריך', 'מנהיג', 'מנהל', 'נהג', 'נשיא', 'סטודנט', 'עובד', 'שחקן', 'שכן', 'תלמיד']
+
+nouns['masculine']['plural'] = ['אורחים', 'אמנים', 'אמריקאיים', 'בחורים', 'דוגמנים', 'חברים', 'סופרים', 'ילדים', 'פקידים', 'מדריכים', 'מנהיגים', 'מנהלים', 'נהגים', 'נשיאים', 'סטודנטים', 'עובדים', 'שחקנים', 'שכנים', 'תלמידים']
+
+nouns['feminine']['singular'] = ['אורחת', 'אמנית', 'אמריקאית', 'בחורה', 'דוגמנית', 'חברה', 'סופרת', 'ילדה', 'פקידה', 'מדריכה', 'מנהיגה', 'מנהלת', 'נהגת', 'נשיאה', 'סטודנטית', 'עובדת', 'שחקנית', 'שכנה', 'תלמידה']
+
+nouns['feminine']['plural'] = ['אורחות', 'אמניות', 'אמריקאיות', 'בחורות', 'דוגמניות', 'חברות', 'סופרות', 'ילדות', 'פקידות', 'מדריכות', 'מנהיגות', 'מנהלות', 'נהגות', 'נשיאות', 'סטודנטיות', 'עובדות', 'שחקניות', 'שכנות', 'תלמידות']
+
+
+"""
+LOCATION NOUNS
+"""
 # Initialization
 location_nouns = {}
 for gender in ['masculine', 'feminine']:
     location_nouns[gender] = {}
+
 # Tokens
 location_nouns['masculine']['singular'] = nouns['masculine']['singular']
 location_nouns['masculine']['plural'] = nouns['masculine']['plural']
 location_nouns['feminine']['singular'] = nouns['feminine']['singular']
 location_nouns['feminine']['plural'] = nouns['feminine']['plural']
 
-###################
-###### VERBS ######
-###################
+
+"""
+VERBS
+"""
 # Initialization
 verbs = {}
+for gender in ['masculine', 'feminine']:
+    verbs[gender] = {}
+
+
+
 # Tokens
-verbs['singular'] = ['welcomes', 'watches', 'attracts', 'blocks', 'knows', 'defends', 'avoids', 'stops', 'ignores', 'meets', 'interrupts', 'observes', 'greets']
-verbs['plural'] =  ['welcome',   'watch',  'attract',  'block',  'know',   'defend',  'avoid',   'stop', 'ignore', 'meet', 'interrupt', 'observe', 'greet']
+verbs['masculine']['singular'] = ['מארח', 'מושך', 'מחזיק', 'מציל', 'מכיר', 'מצלם', 'תוקף']
+verbs['masculine']['plural'] = ['מארחים', 'מושכים', 'מחזיקים', 'מצילים', 'מכירים', 'מצלמים', 'תוקפים']
+verbs['feminine']['singular'] = ['מארחת', 'מושכת', 'מחזיקה', 'מצילה', 'מכירה', 'מצלמת', 'תוקפת']
+verbs['feminine']['plural'] = ['מארחות', 'מושכות', 'מחזיקות', 'מצילות', 'מכירות', 'מצלמות', 'תוקפות']
+
+#verbs['masculine']['singular'] = ["אוהב","דוחף","מאכיל","מארח","מאשים","מבדר","מבייש","מבין","מברך","מגדל","מושך","מחבק","מחזיק","מציל","מכיר","מלביש","מלטף","מנשק","מסיע","מסלק","מעיר","מפחיד","מפטר","מצלם","מקלל","מרגש","מרקיד","שומע","תוקף"]
+
+#verbs['masculine']['plural'] = ["אוהבים","דוחפים","מאכילים","מארחים","מאשימים","מבדרים","מביישים","מבינים","מברכים","מגדלים","מושכים","מחבקים","מחזיקים","מצילים","מכירים","מלבישים","מלטפים","מנשקים","מסיעים","מסלקים","מעירים","מפחידים","מפטרים","מצלמים","מקללים","מרגשים","מרקידים","שומעים","תוקפים"]
+
+#verbs['feminine']['singular'] =  ["אוהבת","דוחפת","מאכילה","מארחת","מאשימה","מבדרת","מביישת","מבינה","מברכת","מגדלת","מושכת","מחבקת","מחזיקה","מצילה","מכירה","מלבישה","מלטפת","מנשקת","מסיעה","מסלקת","מעירה","מפחידה","מפטרת","מצלמת","מקללת","מרגשת","מרקידה","שומעת","תוקפת"]
+
+#verbs['feminine']['plural'] = ["אוהבות","דוחפות","מאכילות","מארחות","מאשימות","מבדרות","מביישות","מבינות","מברכות","מגדלות","מושכות","מחבקות","מחזיקות","מצילות","מכירות","מלבישות","מלטפות","מנשקות","מסיעות","מסלקות","מעירות","מפחידות","מפטרות","מצלמות","מקללות","מרגשות","מרקידות","שומעות","תוקפות"]
 
 copula = {}
 copula['singular'] = 'is'
@@ -71,26 +106,27 @@ matrix_verbs['singular'] = ['remembers', 'says', 'declares']
 matrix_verbs['plural'] =   ['remember' , 'say', 'declare']
 
 
-##########################
-###### PREPOSITIONS ######
-##########################
-
+"""
+PREPOSITIONS
+"""
 # LOCATION PREPOSITIONS
 # -----
 # Tokens (second word will be used to choose the right article from determinats{} - 'a'/'definit'/)
-loc_preps = ['near', 'behind', 'before', 'beside']
+loc_preps = ['ליד', 'מאחור', 'מלפני', 'לצד']
 
 
-##########################
-####### ADJECTIVES #######
-##########################
+"""
+ADJECTIVES
+"""
 adjectives = {}
-#for gender in ['masculine', 'feminine']:
-#    adjectives[gender] = {}
-#adjectives['masculine']['singular'] = ['bello', 'famoso', 'brutto', 'ricco', 'povero', 'basso', 'alto', 'grasso', 'cattivo', 'buono', 'lento', 'nuovo']
-#adjectives['masculine']['plural'] = ['belli', 'famosi', 'brutti', 'ricchi', 'poveri', 'bassi', 'alti', 'grassi', 'cattivi', 'buoni', 'lenti', 'nuovi']
-#adjectives['feminine']['singular'] = ['bella', 'famosa', 'brutta', 'ricca', 'povera', 'bassa', 'alta', 'grassa', 'cattiva', 'buona', 'lenta', 'nuova']
-#adjectives['feminine']['plural'] = ['belle', 'famose', 'brutte', 'ricche', 'povere', 'basse', 'alte', 'grasse', 'cattive', 'buone', 'lente', 'nuove']
 
-
-Words = {'determinants':determinants.copy(), 'nouns':nouns.copy(), 'location_nouns':location_nouns.copy(), 'verbs':verbs.copy(), 'copula':copula.copy(), 'matrix_verbs':matrix_verbs.copy(), 'loc_preps':loc_preps.copy(), 'adjectives':adjectives.copy()}
+Words = {
+	'determinants': determinants.copy(), 
+	'nouns': nouns.copy(), 
+	'location_nouns': location_nouns.copy(), 
+	'verbs': verbs.copy(), 
+	'copula': copula.copy(), 
+	'matrix_verbs': matrix_verbs.copy(), 
+	'loc_preps': loc_preps.copy(), 
+	'adjectives': adjectives.copy()
+}
