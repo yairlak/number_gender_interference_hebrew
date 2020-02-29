@@ -1,8 +1,6 @@
 import sys, argparse
 import numpy as np
 from lexicon_hebrew import Words
-# from lexicon_hebrew import Words
-
 
 # Output is a tab-delimited list of stimuli with info: sentence \t tense \t subject gender \t subject number
 
@@ -29,24 +27,28 @@ def init_counter(features):
 def counter_fullfilled(counter, n):
     return False if any(v < n for v in list(counter.values())) else True
 
-
-# det N1 that the N2 V2 V1 det N3
-if args.natask == 'nounpp':
+# det N1 prep the N2 V1 det N3
+if args.natask == 'nounpp_animate_accusative':
+    animacies = ['animate', 'inanimate']
     genders = ['masculine', 'feminine']
     numbers = ['singular', 'plural']
+    argument_structures = ['accusative', 'unaccusative']
     
     features = {}
+    features['N1_animacy'] = ['animate'] # SUBJET IS ALWAYS ANIMATE
     features['N1_gender'] = genders
     features['N1_number'] = numbers
+    features['N2_animacy'] = animacies
     features['N2_gender'] = genders
     features['N2_number'] = numbers
+    features['V1_argument_struct'] = ['accusative'] # V1 IS ALWAYS ACCUSATIVE
     counter = init_counter(features)
-
     while not counter_fullfilled(counter, args.n):
         # N1
         N1_gender = genders[np.random.randint(2)]
         N1_number = numbers[np.random.randint(2)]
-        N1s = Words['nouns'][N1_gender][N1_number]#[0:num_nouns]
+        N1_animacy = 'animate' # !!! --- SUBJECT IS ANIMATE --- !!!
+        N1s = Words['nouns'][N1_animacy][N1_gender][N1_number]#[0:num_nouns]
         IX_N1 = np.random.randint(len(N1s))
         N1 = N1s[IX_N1]
         # PREP
@@ -56,17 +58,20 @@ if args.natask == 'nounpp':
         # N2
         N2_gender = genders[np.random.randint(2)]
         N2_number = numbers[np.random.randint(2)]
-        N2s = Words['nouns'][N2_gender][N2_number]#[0:num_nouns]
+        N2_animacy = animacies[np.random.randint(2)]
+        N2s = Words['nouns'][N2_animacy][N2_gender][N2_number]#[0:num_nouns]
         IX_N2 = np.random.randint(len(N2s))
         N2 = N2s[IX_N2]
         # N3
         N3_gender = genders[np.random.randint(2)]
         N3_number = numbers[np.random.randint(2)]
-        N3s = Words['nouns'][N3_gender][N3_number]#[0:num_nouns]
+        N3_animacy = animacies[np.random.randint(2)]
+        N3s = Words['nouns'][N3_animacy][N3_gender][N3_number]#[0:num_nouns]
         IX_N3 = np.random.randint(len(N3s))
         N3 = N3s[IX_N3]
         # V1
-        V1s = Words['verbs'][N1_gender][N1_number]#[0:num_nouns]
+        V1_argument_struct = 'accusative' # V1 IS ACCUSATIVE
+        V1s = Words['verbs'][N1_animacy][V1_argument_struct][N1_gender][N1_number]#[0:num_nouns]
         IX_V1 = np.random.randint(len(V1s))
         V1 = V1s[IX_V1]
         # sentence
@@ -76,25 +81,167 @@ if args.natask == 'nounpp':
 
         noun_IXs = [IX_N1, IX_N2, IX_N3]
         if len(set(noun_IXs)) == len(noun_IXs): # check noun repetition at the lemma level (i.e., all indexes are different)
-            if counter['_'.join([N1_gender, N1_number, N2_gender, N2_number])] < args.n:
+            if counter['_'.join([N1_animacy, N1_gender, N1_number, N2_animacy, N2_gender, N2_number, V1_argument_struct])] < args.n:
                 stimuli.append([args.natask, sentence,
-                       N1_gender, N1_number,
-                       N2_gender, N2_number,
+                       N1_animacy, N1_gender, N1_number,
+                       N2_animacy, N2_gender, N2_number,
                        N3_gender, N3_number,
-                       Words['verbs'][N1_gender][opposite_number_V1][IX_V1],
-                       Words['verbs'][opposite_gender_V1][N1_number][IX_V1],
-                       Words['verbs'][opposite_gender_V1][opposite_number_V1][IX_V1]])
-                counter['_'.join([N1_gender, N1_number, N2_gender, N2_number])]+=1 
+                       V1_argument_struct,
+                       Words['verbs'][N1_animacy][V1_argument_struct][N1_gender][opposite_number_V1][IX_V1],
+                       Words['verbs'][N1_animacy][V1_argument_struct][opposite_gender_V1][N1_number][IX_V1],
+                       Words['verbs'][N1_animacy][V1_argument_struct][opposite_gender_V1][opposite_number_V1][IX_V1]])
+                counter['_'.join([N1_animacy, N1_gender, N1_number, N2_animacy, N2_gender, N2_number, V1_argument_struct])]+=1 
 
     stimuli.sort(key=lambda x: x[1]) # first word
     stimuli.sort(key=lambda x: x[7], reverse=True) # feature 1
-    stimuli.sort(key=lambda x: x[5], reverse=True) # feature 1
-    stimuli.sort(key=lambda x: x[3], reverse=True) # feature 2
-#     for idx, s in enumerate(stimuli):
-#         print('\n{})'.format(idx))
-#         for i in s:
-#             print(i.encode('utf8').decode(sys.stdout.encoding) + '\t')
+    stimuli.sort(key=lambda x: x[5], reverse=True) # feature 2
+    stimuli.sort(key=lambda x: x[3], reverse=True) # feature 3
     [print('\t'.join(l)) for l in stimuli]
+
+
+# det N1 prep the N2 V1 
+if args.natask == 'nounpp_animate_unaccusative':
+    animacies = ['animate', 'inanimate']
+    genders = ['masculine', 'feminine']
+    numbers = ['singular', 'plural']
+    argument_structures = ['accusative', 'unaccusative']
+    
+    features = {}
+    features['N1_animacy'] = ['animate'] # SUBJET IS ALWAYS ANIMATE
+    features['N1_gender'] = genders
+    features['N1_number'] = numbers
+    features['N2_animacy'] = animacies
+    features['N2_gender'] = genders
+    features['N2_number'] = numbers
+    features['V1_argument_struct'] = ['unaccusative'] # V1 IS ALWAYS ACCUSATIVE
+    counter = init_counter(features)
+    while not counter_fullfilled(counter, args.n):
+        # N1
+        N1_gender = genders[np.random.randint(2)]
+        N1_number = numbers[np.random.randint(2)]
+        N1_animacy = 'animate' # !!! --- SUBJECT IS ANIMATE --- !!!
+        N1s = Words['nouns'][N1_animacy][N1_gender][N1_number]#[0:num_nouns]
+        IX_N1 = np.random.randint(len(N1s))
+        N1 = N1s[IX_N1]
+        # PREP
+        PREPs = Words['loc_preps']
+        IX_PREP = np.random.randint(len(PREPs))
+        PREP = PREPs[IX_PREP]
+        # N2
+        N2_gender = genders[np.random.randint(2)]
+        N2_number = numbers[np.random.randint(2)]
+        N2_animacy = animacies[np.random.randint(2)]
+        N2s = Words['nouns'][N2_animacy][N2_gender][N2_number]#[0:num_nouns]
+        IX_N2 = np.random.randint(len(N2s))
+        N2 = N2s[IX_N2]
+        # N3
+        N3_gender = genders[np.random.randint(2)]
+        N3_number = numbers[np.random.randint(2)]
+        N3_animacy = animacies[np.random.randint(2)]
+        N3s = Words['nouns'][N3_animacy][N3_gender][N3_number]#[0:num_nouns]
+        IX_N3 = np.random.randint(len(N3s))
+        N3 = N3s[IX_N3]
+        # V1
+        V1_argument_struct = 'unaccusative' # V1 IS UNACCUSATIVE
+        V1s = Words['verbs'][N1_animacy][V1_argument_struct][N1_gender][N1_number]#[0:num_nouns]
+        IX_V1 = np.random.randint(len(V1s))
+        V1 = V1s[IX_V1]
+        # sentence
+        opposite_number_V1 = 'singular' if N1_number == 'plural' else 'plural'
+        opposite_gender_V1 = 'masculine' if N1_gender == 'feminine' else 'feminine'
+        sentence = ' '.join(['ה', N1, PREP, 'ה', N2, V1])
+
+        noun_IXs = [IX_N1, IX_N2, IX_N3]
+        if len(set(noun_IXs)) == len(noun_IXs): # check noun repetition at the lemma level (i.e., all indexes are different)
+            if counter['_'.join([N1_animacy, N1_gender, N1_number, N2_animacy, N2_gender, N2_number, V1_argument_struct])] < args.n:
+                stimuli.append([args.natask, sentence,
+                       N1_animacy, N1_gender, N1_number,
+                       N2_animacy, N2_gender, N2_number,
+                       N3_gender, N3_number,
+                       V1_argument_struct,
+                       Words['verbs'][N1_animacy][V1_argument_struct][N1_gender][opposite_number_V1][IX_V1],
+                       Words['verbs'][N1_animacy][V1_argument_struct][opposite_gender_V1][N1_number][IX_V1],
+                       Words['verbs'][N1_animacy][V1_argument_struct][opposite_gender_V1][opposite_number_V1][IX_V1]])
+                counter['_'.join([N1_animacy, N1_gender, N1_number, N2_animacy, N2_gender, N2_number, V1_argument_struct])]+=1 
+
+    stimuli.sort(key=lambda x: x[1]) # first word
+    stimuli.sort(key=lambda x: x[7], reverse=True) # feature 1
+    stimuli.sort(key=lambda x: x[5], reverse=True) # feature 2
+    stimuli.sort(key=lambda x: x[3], reverse=True) # feature 3
+    [print('\t'.join(l)) for l in stimuli]
+
+
+# det N1 prep the N2 V1 
+if args.natask == 'nounpp_inanimate_unaccusative':
+    animacies = ['animate', 'inanimate']
+    genders = ['masculine', 'feminine']
+    numbers = ['singular', 'plural']
+    argument_structures = ['accusative', 'unaccusative']
+    
+    features = {}
+    features['N1_animacy'] = ['inanimate'] # SUBJET IS ALWAYS ANIMATE
+    features['N1_gender'] = genders
+    features['N1_number'] = numbers
+    features['N2_animacy'] = animacies
+    features['N2_gender'] = genders
+    features['N2_number'] = numbers
+    features['V1_argument_struct'] = ['unaccusative'] # V1 IS ALWAYS ACCUSATIVE
+    counter = init_counter(features)
+    while not counter_fullfilled(counter, args.n):
+        # N1
+        N1_gender = genders[np.random.randint(2)]
+        N1_number = numbers[np.random.randint(2)]
+        N1_animacy = 'inanimate' # !!! --- SUBJECT IS ANIMATE --- !!!
+        N1s = Words['nouns'][N1_animacy][N1_gender][N1_number]#[0:num_nouns]
+        IX_N1 = np.random.randint(len(N1s))
+        N1 = N1s[IX_N1]
+        # PREP
+        PREPs = Words['loc_preps']
+        IX_PREP = np.random.randint(len(PREPs))
+        PREP = PREPs[IX_PREP]
+        # N2
+        N2_gender = genders[np.random.randint(2)]
+        N2_number = numbers[np.random.randint(2)]
+        N2_animacy = animacies[np.random.randint(2)]
+        N2s = Words['nouns'][N2_animacy][N2_gender][N2_number]#[0:num_nouns]
+        IX_N2 = np.random.randint(len(N2s))
+        N2 = N2s[IX_N2]
+        # N3
+        N3_gender = genders[np.random.randint(2)]
+        N3_number = numbers[np.random.randint(2)]
+        N3_animacy = animacies[np.random.randint(2)]
+        N3s = Words['nouns'][N3_animacy][N3_gender][N3_number]#[0:num_nouns]
+        IX_N3 = np.random.randint(len(N3s))
+        N3 = N3s[IX_N3]
+        # V1
+        V1_argument_struct = 'unaccusative' # V1 IS UNACCUSATIVE
+        V1s = Words['verbs'][N1_animacy][V1_argument_struct][N1_gender][N1_number]#[0:num_nouns]
+        IX_V1 = np.random.randint(len(V1s))
+        V1 = V1s[IX_V1]
+        # sentence
+        opposite_number_V1 = 'singular' if N1_number == 'plural' else 'plural'
+        opposite_gender_V1 = 'masculine' if N1_gender == 'feminine' else 'feminine'
+        sentence = ' '.join(['ה', N1, PREP, 'ה', N2, V1])
+
+        noun_IXs = [IX_N1, IX_N2, IX_N3]
+        if len(set(noun_IXs)) == len(noun_IXs): # check noun repetition at the lemma level (i.e., all indexes are different)
+            if counter['_'.join([N1_animacy, N1_gender, N1_number, N2_animacy, N2_gender, N2_number, V1_argument_struct])] < args.n:
+                stimuli.append([args.natask, sentence,
+                       N1_animacy, N1_gender, N1_number,
+                       N2_animacy, N2_gender, N2_number,
+                       N3_gender, N3_number,
+                       V1_argument_struct,
+                       Words['verbs'][N1_animacy][V1_argument_struct][N1_gender][opposite_number_V1][IX_V1],
+                       Words['verbs'][N1_animacy][V1_argument_struct][opposite_gender_V1][N1_number][IX_V1],
+                       Words['verbs'][N1_animacy][V1_argument_struct][opposite_gender_V1][opposite_number_V1][IX_V1]])
+                counter['_'.join([N1_animacy, N1_gender, N1_number, N2_animacy, N2_gender, N2_number, V1_argument_struct])]+=1 
+
+    stimuli.sort(key=lambda x: x[1]) # first word
+    stimuli.sort(key=lambda x: x[7], reverse=True) # feature 1
+    stimuli.sort(key=lambda x: x[5], reverse=True) # feature 2
+    stimuli.sort(key=lambda x: x[3], reverse=True) # feature 3
+    [print('\t'.join(l)) for l in stimuli]
+
 
 # det N1 that the N2 V2 V1 det N3
 if args.natask == 'objrel':
@@ -106,6 +253,8 @@ if args.natask == 'objrel':
     features['N1_number'] = numbers
     features['N2_gender'] = genders
     features['N2_number'] = numbers
+    features['V1_argument_struct'] = argument_structures
+    features['V2_argument_struct'] = argument_structures
     counter = init_counter(features)
 
     while not counter_fullfilled(counter, args.n):
@@ -145,7 +294,7 @@ if args.natask == 'objrel':
         noun_IXs = [IX_N1, IX_N2, IX_N3]
         if len(set(noun_IXs)) == len(noun_IXs): # check noun repetition at the lemma level (i.e., all indexes are different)
             if IX_V1 != IX_V2:                  # check verb repetition at the lemma level
-                if counter['_'.join([N1_gender, N1_number, N2_gender, N2_number])] < args.n:
+                if counter['_'.join([N1_animacy, N1_gender, N1_number, N2_animacy, N2_gender, N2_number, V1_argument_struct, V2_argument_struct])] < args.n:
                     stimuli.append([args.natask, sentence,
                            N1_gender, N1_number,
                            N2_gender, N2_number,
@@ -157,8 +306,4 @@ if args.natask == 'objrel':
     stimuli.sort(key=lambda x: x[7], reverse=True) # feature 1
     stimuli.sort(key=lambda x: x[5], reverse=True) # feature 1
     stimuli.sort(key=lambda x: x[3], reverse=True) # feature 2
-#     for idx, s in enumerate(stimuli):
-#         print('\n{})'.format(idx))
-#         for i in s:
-#             print(i.encode('utf8').decode(sys.stdout.encoding) + '\t')
     [print('\t'.join(l)) for l in stimuli]
