@@ -6,9 +6,10 @@ from lexicon_hebrew import Words
 
 # Parse arguments
 parser = argparse.ArgumentParser(description='Stimulus generator for Hebrew')
-parser.add_argument('-t', '--natask', default='nounpp', type=str, help = 'Number-agreement (NA) task to generate (nounpp/subjrel_that/objrel)')
+parser.add_argument('-t', '--natask', default='nounpp_animate_accusative', type=str, help = 'Number-agreement (NA) task to generate (nounpp/subjrel_that/objrel)')
 parser.add_argument('-n', default=10 , type=int, help = 'number of samples from each condition')
-parser.add_argument('-seed', default=1 , type=int, help = 'Random seed for replicability')
+parser.add_argument('--seed', default=1 , type=int, help = 'Random seed for replicability')
+parser.add_argument('--output-filename', default=[] , type=str, help = 'Filename to which stimuli will be saved.')
 args = parser.parse_args()
 
 stimuli = []
@@ -125,6 +126,9 @@ if args.natask in ['nounpp_animate_accusative', 'nounpp_animate_unaccusative', '
     stimuli.sort(key=lambda x: x[3], reverse=True) # feature 3
     [print('\t'.join(l)) for l in stimuli]
 
+if args.output_filename:
+    with open(args.output_filename, 'w') as f:
+        [f.write('%s\n'%l) for l in stimuli]
 
 #
 #
