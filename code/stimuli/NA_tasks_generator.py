@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser(description='Stimulus generator for Hebrew')
 parser.add_argument('-t', '--natask', default='nounpp_animate_accusative', type=str, help = 'Number-agreement (NA) task to generate (nounpp/subjrel_that/objrel)')
 parser.add_argument('-n', default=10 , type=int, help = 'number of samples from each condition')
 parser.add_argument('--seed', default=1 , type=int, help = 'Random seed for replicability')
-parser.add_argument('--output-filename', default=[] , type=str, help = 'Filename to which stimuli will be saved.')
+parser.add_argument('--save2file', action='store_true', default=False, help = 'Whether to save to a file.')
 args = parser.parse_args()
 
 stimuli = []
@@ -104,6 +104,7 @@ if args.natask in ['nounpp_animate_accusative', 'nounpp_animate_unaccusative', '
             sentence = ' '.join(['ה', N1, PREP, 'ה', N2, V1, 'את', 'ה', N3])
         elif args.natask in ['nounpp_inanimate_unaccusative', 'nounpp_animate_unaccusative']:
             sentence = ' '.join(['ה', N1, PREP, 'ה', N2, V1])
+            N3_animacy = 'None'
             N3_number = 'None'
             N3_gender = 'None'
 
@@ -113,7 +114,7 @@ if args.natask in ['nounpp_animate_accusative', 'nounpp_animate_unaccusative', '
                 stimuli.append([args.natask, sentence,
                        N1_animacy, N1_gender, N1_number,
                        N2_animacy, N2_gender, N2_number,
-                       N3_gender, N3_number,
+                       N3_animacy, N3_gender, N3_number,
                        V1_argument_struct,
                        Words['verbs'][N1_animacy][N1_group][V1_argument_struct][N1_gender][opposite_number_V1][IX_V1],
                        Words['verbs'][N1_animacy][N1_group][V1_argument_struct][opposite_gender_V1][N1_number][IX_V1],
@@ -126,8 +127,9 @@ if args.natask in ['nounpp_animate_accusative', 'nounpp_animate_unaccusative', '
     stimuli.sort(key=lambda x: x[3], reverse=True) # feature 3
     [print('\t'.join(l)) for l in stimuli]
 
-if args.output_filename:
-    with open(args.output_filename, 'w') as f:
+if args.save2file:
+    filename = 'stimuli_'+'_'.join([args.natask, str(args.seed), str(args.n)]) + '.txt'
+    with open(filename, 'w') as f:
         [f.write('%s\n'%l) for l in stimuli]
 
 #
