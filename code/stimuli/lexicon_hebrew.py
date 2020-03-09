@@ -22,14 +22,6 @@ nouns['animate'][0]['feminine']['singular'] = ['אורחת', 'אמנית', 'אמ
 
 nouns['animate'][0]['feminine']['plural'] = ['אורחות', 'אמניות', 'אמריקאיות', 'בחורות', 'דוגמניות', 'חברות', 'חיילות', 'ילדות', 'מדריכות', 'מנהיגות', 'מנהלות', 'נהגות', 'סופרות', 'סטודנטיות', 'עובדות', 'פקידות', 'שחקניות', 'שכנות', 'תלמידות']
 
-# INANIMATE
-# nouns['inanimate']['masculine']['singular'] = ['ארטיק', 'בושם', 'בקבוק', 'חלון', 'כביש', 'כדור', 'כסא', 'מחשב', 'מטבח', 'מעיל']
-
-# nouns['inanimate']['masculine']['plural'] = ['ארטיקים', 'בקבוקים', 'בשמים', 'חלונות', 'כבישים', 'כדורים', 'כסאות', 'מחשבים', 'מטבחים', 'מעילים']
-
-# nouns['inanimate']['feminine']['singular'] = ['ארוחה', 'גלידה', 'חולצה', 'טלוויזיה', 'מיטה', 'מכונית', 'מנורה', 'משחה', 'צלחת', 'שרשרת']
-
-# nouns['inanimate']['feminine']['plural'] = ['ארוחות', 'גלידות', 'חולות', 'טלווזיות', 'מיטות', 'מכוניות', 'מנורות', 'משחות', 'צלחות', 'שרשראות']
 
 # GROUP 0
 nouns['inanimate'][0]['masculine']['singular'] = ['ארטיק', 'מיץ', 'שוקולד']
@@ -85,15 +77,6 @@ verbs['animate'][0]['unaccusative']['feminine']['singular'] = ['מצטננת', '
 
 verbs['animate'][0]['unaccusative']['feminine']['plural'] = ['מצטננות', 'מתחממות', 'מתייבשות', 'מתלכלכות', 'מתמוטטות', 'מתעלפות', 'מתקררות', 'נופלות', 'נעלמות', 'נרטבות']
 
-# INANIMATE
-# verbs['inanimate']['unaccusative']['masculine']['singular'] = ['מתפרק', 'מתקלקל', 'מתרסק', 'נגמר', 'נדלק', 'נוזל', 'נכבה', 'נמס', 'נשפך', 'קופא']
-# verbs['inanimate']['unaccusative']['masculine']['plural'] = ['מתפרקים', 'מתקלקלים', 'מתרסקים', 'נגמרים', 'נדלקים', 'נוזלים',
-#                                                              'נכבים', 'נמסים', 'נשפכים','קופאים']
-# verbs['inanimate']['unaccusative']['feminine']['singular'] = ['מתפרקת', 'מתקלקלת', 'מתרסקת', 'נגמרת', 'נדלקת', 'נוזלת', 'נכבת', 'נמסה',
-#                                                               'נשפכת', 'קופאת']
-# verbs['inanimate']['unaccusative']['feminine']['plural'] = ['מתפרקות', 'מתקלקלות', 'מתרסקות', 'נגמרות', 'נדלקות', 'נוזלות',
-#                                                             'נכבות', 'נמסות', 'נשפכות', 'קופאות']
-
 verbs['inanimate'][0]['unaccusative']['masculine']['singular'] = ['נגמר', 'נמס', 'קופא']
 verbs['inanimate'][0]['unaccusative']['masculine']['plural'] = ['נגמרים', 'נמסים', 'קופאים']
 verbs['inanimate'][0]['unaccusative']['feminine']['singular'] = ['נגמרת', 'נמסה', 'קופאת']
@@ -126,24 +109,3 @@ Words = {
 }
 
 
-#"""
-#ADJECTIVES
-#"""
-#adjectives = {}
-
-
-#"""
-#LOCATION NOUNS
-#"""
-# Initialization
-#location_nouns = {}
-#for animacy in ['animate', 'inanimate']:
-#    location_nouns[animacy] = {}
-#    for gender in ['masculine', 'feminine']:
-#        location_nouns[animacy][gender] = {}
-
-# Tokens
-#location_nouns['masculine']['singular'] = nouns['masculine']['singular']
-#location_nouns['masculine']['plural'] = nouns['masculine']['plural#']
-#location_nouns['feminine']['singular'] = nouns['feminine']['singular']
-#location_nouns['feminine']['plural'] = nouns['feminine']['plural']
