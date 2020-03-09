@@ -8,7 +8,7 @@ NUM_SAMPLES=4096
 NUM_STIMULUS_TYPES=16 # How many lines "NA_task_generator.py -n 1" would generate
 N=$(($NUM_SAMPLES / $NUM_STIMULUS_TYPES))
 
-for NATASK in 'nounpp';
+for NATASK in 'nounpp_animate_accusative' 'nounpp_animate_unaccusative' 'nounpp_inanimate_unaccusative';
 do
     TEST_WORD_POSITION=3
     
