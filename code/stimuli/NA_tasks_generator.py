@@ -121,7 +121,7 @@ if args.natask in ['nounpp_animate_accusative', 'nounpp_animate_unaccusative', '
                        Words['verbs'][N1_animacy][N1_group][V1_argument_struct][opposite_gender_V1][opposite_number_V1][IX_V1]])
                 counter['_'.join([N1_animacy, N1_gender, N1_number, N2_animacy, N2_gender, N2_number, V1_argument_struct])]+=1 
 
-    stimuli.sort(key=lambda x: x[1]) # first word
+    #stimuli.sort(key=lambda x: x[1]) # first word
     stimuli.sort(key=lambda x: x[7], reverse=True) # feature 1
     stimuli.sort(key=lambda x: x[5], reverse=True) # feature 2
     stimuli.sort(key=lambda x: x[3], reverse=True) # feature 3
