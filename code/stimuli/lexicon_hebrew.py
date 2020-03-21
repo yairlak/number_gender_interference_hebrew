@@ -24,11 +24,11 @@ nouns['animate'][0]['feminine']['plural'] = ['אורחות', 'אמניות', 'א
 
 
 # GROUP 0
-nouns['inanimate'][0]['masculine']['singular'] = ['ארטיק', 'מיץ', 'שוקולד']
-nouns['inanimate'][0]['masculine']['plural'] = ['ארטיקים', 'מיצים', 'שוקולדים']
+nouns['inanimate'][0]['masculine']['singular'] = ['משקה', 'מסמך', 'שוקולד']
+nouns['inanimate'][0]['masculine']['plural'] = ['משקאות', 'מסמכים', 'שוקולדים']
 
-nouns['inanimate'][0]['feminine']['singular'] = ['גבינה', 'גלידה', 'שעווה']
-nouns['inanimate'][0]['feminine']['plural'] = ['גבינות', 'גלידות', 'שעוות']
+nouns['inanimate'][0]['feminine']['singular'] = ['עוגיה', 'ריבה', 'תרופה']
+nouns['inanimate'][0]['feminine']['plural'] = ['עוגיות', 'ריבות', 'תרופות']
 
 # GROUP 1
 nouns['inanimate'][1]['masculine']['singular'] = ['כדור', 'כסא', 'מעיל']
@@ -73,14 +73,14 @@ verbs['animate'][0]['unaccusative']['masculine']['singular'] = ['מצטנן', '�
 
 verbs['animate'][0]['unaccusative']['masculine']['plural'] = ['מצטננים', 'מתחממים', 'מתייבשים', 'מתלכלכים', 'מתמוטטים', 'מתעלפים', 'מתקררים', 'נופלים', 'נעלמים', 'נרטבים']
 
-verbs['animate'][0]['unaccusative']['feminine']['singular'] = ['מצטננת', 'מתחממת', 'מתייבשת', 'מתלכלכת', 'מתמוטטת', 'מתעפלת', 'מתקררת', 'נופלת', 'נעלמת', 'נרטבת']
+verbs['animate'][0]['unaccusative']['feminine']['singular'] = ['מצטננת', 'מתחממת', 'מתייבשת', 'מתלכלכת', 'מתמוטטת', 'מתעלפת', 'מתקררת', 'נופלת', 'נעלמת', 'נרטבת']
 
 verbs['animate'][0]['unaccusative']['feminine']['plural'] = ['מצטננות', 'מתחממות', 'מתייבשות', 'מתלכלכות', 'מתמוטטות', 'מתעלפות', 'מתקררות', 'נופלות', 'נעלמות', 'נרטבות']
 
-verbs['inanimate'][0]['unaccusative']['masculine']['singular'] = ['נגמר', 'נמס', 'קופא']
-verbs['inanimate'][0]['unaccusative']['masculine']['plural'] = ['נגמרים', 'נמסים', 'קופאים']
-verbs['inanimate'][0]['unaccusative']['feminine']['singular'] = ['נגמרת', 'נמסה', 'קופאת']
-verbs['inanimate'][0]['unaccusative']['feminine']['plural'] = ['נגמרות', 'נמסות', 'קופאות']
+verbs['inanimate'][0]['unaccusative']['masculine']['singular'] = ['נגמר', 'נאבד', 'נהרס']
+verbs['inanimate'][0]['unaccusative']['masculine']['plural'] = ['נגמרים', 'נאבדים', 'נהרסים']
+verbs['inanimate'][0]['unaccusative']['feminine']['singular'] = ['נגמרת', 'נאבדת', 'נהרסת']
+verbs['inanimate'][0]['unaccusative']['feminine']['plural'] = ['נגמרות', 'נאבדות', 'נהרסות']
 
 verbs['inanimate'][1]['unaccusative']['masculine']['singular'] = ['נעלם', 'נופל', 'נרטב']
 verbs['inanimate'][1]['unaccusative']['masculine']['plural'] = ['נעלמים', 'נופלים', 'נרטבים']

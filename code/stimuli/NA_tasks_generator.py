@@ -129,6 +129,7 @@ if args.natask in ['nounpp_animate_accusative', 'nounpp_animate_unaccusative', '
 
 if args.save2file:
     filename = 'stimuli_'+'_'.join([args.natask, str(args.seed), str(args.n)]) + '.txt'
+    print(filename)
     with open(filename, 'w') as f:
         [f.write('%s\n'%l) for l in stimuli]
 
