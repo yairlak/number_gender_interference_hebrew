@@ -14,28 +14,28 @@ for animacy in ['animate', 'inanimate']:
             nouns[animacy][group][gender] = {}
 
 # ANIMATE
-nouns['animate'][0]['masculine']['singular'] = ['אורח', 'אמן', 'אמריקאי', 'בחור', 'דוגמן', 'חבר', 'חייל', 'ילד', 'מדריך', 'מנהיג', 'מנהל', 'נהג', 'פקח', 'סטודנט', 'עובד', 'פקיד', 'שחקן', 'שכן', 'תלמיד']
+nouns['animate'][0]['masculine']['singular'] = ['אורח',  'אמריקאי', 'בחור',  'חבר',  'ילד', 'מדריך' , 'נהג',  'סטודנט', 'שחקן', 'שכן', 'תלמיד']
 
-nouns['animate'][0]['masculine']['plural'] = ['אורחים', 'אמנים', 'אמריקאיים', 'בחורים', 'דוגמנים', 'חברים', 'חיילים', 'ילדים', 'מדריכים', 'מנהיגים', 'מנהלים', 'נהגים', 'פקחים', 'סטודנטים', 'עובדים', 'פקידים', 'שחקנים', 'שכנים', 'תלמידים']
+nouns['animate'][0]['masculine']['plural'] = ['אורחים',  'אמריקאיים', 'בחורים',  'חברים', 'ילדים', 'מדריכים',  'נהגים', 'סטודנטים',  'שחקנים', 'שכנים', 'תלמידים']
 
-nouns['animate'][0]['feminine']['singular'] = ['אורחת', 'אמנית', 'אמריקאית', 'בחורה', 'דוגמנית', 'חברה', 'חיילת', 'ילדה', 'מדריכה', 'מנהיגה', 'מנהלת', 'נהגת', 'פקחית', 'סטודנטית', 'עובדת', 'פקידה', 'שחקנית', 'שכנה', 'תלמידה']
+nouns['animate'][0]['feminine']['singular'] = ['אורחת',  'אמריקאית', 'בחורה',  'חברה', 'ילדה', 'מדריכה', 'נהגת', 'סטודנטית',  'שחקנית', 'שכנה', 'תלמידה']
 
-nouns['animate'][0]['feminine']['plural'] = ['אורחות', 'אמניות', 'אמריקאיות', 'בחורות', 'דוגמניות', 'חברות', 'חיילות', 'ילדות', 'מדריכות', 'מנהיגות', 'מנהלות', 'נהגות', 'פקחיות', 'סטודנטיות', 'עובדות', 'פקידות', 'שחקניות', 'שכנות', 'תלמידות']
+nouns['animate'][0]['feminine']['plural'] = ['אורחות',  'אמריקאיות', 'בחורות', 'חברות', 'ילדות', 'מדריכות',  'נהגות', 'סטודנטיות',   'שחקניות', 'שכנות', 'תלמידות']
 
 
 # GROUP 0
-nouns['inanimate'][0]['masculine']['singular'] = ['ארטיק', 'מיץ', 'שוקולד']
-nouns['inanimate'][0]['masculine']['plural'] = ['ארטיקים', 'מיצים', 'שוקולדים']
+nouns['inanimate'][0]['masculine']['singular'] = ['משקה', 'מסך', 'שביל']
+nouns['inanimate'][0]['masculine']['plural'] = ['משקאות', 'מסכים', 'שבילים']
 
-nouns['inanimate'][0]['feminine']['singular'] = ['גבינה', 'גלידה', 'שעווה']
-nouns['inanimate'][0]['feminine']['plural'] = ['גבינות', 'גלידות', 'שעוות']
+nouns['inanimate'][0]['feminine']['singular'] = ['ערמה', 'עוגיה', 'תרופה']
+nouns['inanimate'][0]['feminine']['plural'] = ['ערמות', 'עוגיות', 'תרופות']
 
 # GROUP 1
-nouns['inanimate'][1]['masculine']['singular'] = ['כדור', 'כסא', 'מעיל']
-nouns['inanimate'][1]['masculine']['plural'] = ['כדורים', 'כסאות', 'מעילים']
+nouns['inanimate'][1]['masculine']['singular'] = ['כדור', 'כסא', 'שלט']
+nouns['inanimate'][1]['masculine']['plural'] = ['כדורים', 'כסאות', 'שלטים']
 
-nouns['inanimate'][1]['feminine']['singular'] = ['חולצה', 'מטריה', 'צלחת']
-nouns['inanimate'][1]['feminine']['plural'] = ['חולצות', 'מטריות', 'צלחות']
+nouns['inanimate'][1]['feminine']['singular'] = ['ספה', 'כורסא', 'תמונה']
+nouns['inanimate'][1]['feminine']['plural'] = ['ספות', 'כורסאות', 'תמונות']
 
 # GROUP 2
 nouns['inanimate'][2]['masculine']['singular'] = ['חלון', 'מחשב', 'מטבח']
@@ -61,26 +61,26 @@ for animacy in ['animate', 'inanimate']:
 
 
 # ANIMATE
-verbs['animate'][0]['accusative']['masculine']['singular'] = ['מחפש', 'מושך', 'מחזיק', 'מכיר', 'מלמד', 'מציל', 'מצלם', 'מרגיש', 'קופץ', 'תוקף']
+verbs['animate'][0]['accusative']['masculine']['singular'] = ['מחפש', 'מושך', 'מחזיק', 'מכיר', 'מלמד',  'מצלם', 'מרגש',  'תוקף']
 
-verbs['animate'][0]['accusative']['masculine']['plural'] = ['מחפשים' ,'מושכים' ,'מחזיקים' ,'מכירים' ,'מלמדים' ,'מצילים' ,'מצלמים', 'מרגישים', 'קופצים' ,'תוקפים']
+verbs['animate'][0]['accusative']['masculine']['plural'] = ['מחפשים' ,'מושכים' ,'מחזיקים' ,'מכירים' ,'מלמדים'  ,'מצלמים', 'מרגשים' ,'תוקפים']
 
-verbs['animate'][0]['accusative']['feminine']['singular'] = ['מחפשת', 'מושכת', 'מחזיקה', 'מכירה', 'מלמדת', 'מצילה', 'מצלמת', 'מרגישה', 'קופצת', 'תוקפת']
+verbs['animate'][0]['accusative']['feminine']['singular'] = ['מחפשת', 'מושכת', 'מחזיקה', 'מכירה', 'מלמדת',  'מצלמת', 'מרגשת',  'תוקפת']
 
-verbs['animate'][0]['accusative']['feminine']['plural'] = ['מחפשות', 'מושכות', 'מחזיקות', 'מכירות', 'מלמדות', 'מצילות', 'מצלמות', 'מרגישות', 'קופצות', 'תוקפות']
+verbs['animate'][0]['accusative']['feminine']['plural'] = ['מחפשות', 'מושכות', 'מחזיקות', 'מכירות', 'מלמדות',  'מצלמות', 'מרגשות',  'תוקפות']
 
 verbs['animate'][0]['unaccusative']['masculine']['singular'] = ['מצטנן', 'מתחמם', 'מתייבש', 'מתלכלך', 'מתמוטט', 'מתעלף', 'מתקרר', 'נופל', 'נעלם', 'נרטב']
 
 verbs['animate'][0]['unaccusative']['masculine']['plural'] = ['מצטננים', 'מתחממים', 'מתייבשים', 'מתלכלכים', 'מתמוטטים', 'מתעלפים', 'מתקררים', 'נופלים', 'נעלמים', 'נרטבים']
 
-verbs['animate'][0]['unaccusative']['feminine']['singular'] = ['מצטננת', 'מתחממת', 'מתייבשת', 'מתלכלכת', 'מתמוטטת', 'מתעפלת', 'מתקררת', 'נופלת', 'נעלמת', 'נרטבת']
+verbs['animate'][0]['unaccusative']['feminine']['singular'] = ['מצטננת', 'מתחממת', 'מתייבשת', 'מתלכלכת', 'מתמוטטת', 'מתעלפת', 'מתקררת', 'נופלת', 'נעלמת', 'נרטבת']
 
 verbs['animate'][0]['unaccusative']['feminine']['plural'] = ['מצטננות', 'מתחממות', 'מתייבשות', 'מתלכלכות', 'מתמוטטות', 'מתעלפות', 'מתקררות', 'נופלות', 'נעלמות', 'נרטבות']
 
-verbs['inanimate'][0]['unaccusative']['masculine']['singular'] = ['נגמר', 'נמס', 'קופא']
-verbs['inanimate'][0]['unaccusative']['masculine']['plural'] = ['נגמרים', 'נמסים', 'קופאים']
-verbs['inanimate'][0]['unaccusative']['feminine']['singular'] = ['נגמרת', 'נמסה', 'קופאת']
-verbs['inanimate'][0]['unaccusative']['feminine']['plural'] = ['נגמרות', 'נמסות', 'קופאות']
+verbs['inanimate'][0]['unaccusative']['masculine']['singular'] = ['נגמר', 'נאבד', 'נהרס']
+verbs['inanimate'][0]['unaccusative']['masculine']['plural'] = ['נגמרים', 'נאבדים', 'נהרסים']
+verbs['inanimate'][0]['unaccusative']['feminine']['singular'] = ['נגמרת', 'נאבדת', 'נהרסת']
+verbs['inanimate'][0]['unaccusative']['feminine']['plural'] = ['נגמרות', 'נאבדות', 'נהרסות']
 
 verbs['inanimate'][1]['unaccusative']['masculine']['singular'] = ['נעלם', 'נופל', 'נרטב']
 verbs['inanimate'][1]['unaccusative']['masculine']['plural'] = ['נעלמים', 'נופלים', 'נרטבים']
@@ -98,8 +98,7 @@ PREPOSITIONS
 """
 # LOCATION PREPOSITIONS
 # -----
-loc_preps = ['ליד', 'מאחורי', 'מלפני', 'לצד']
-
+loc_preps = [ 'מלפני','מעל', 'ליד', 'מאחורי',  'לצד']
 
 
 Words = {
