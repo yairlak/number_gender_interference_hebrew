@@ -12,7 +12,7 @@ for b_id = 1:params.n_blocks % block ID
 %     warning off;
     curr_filename = fullfile(params.path2stim, ['Subj_', params.subject, '_block_', num2str(params.session), '.txt']);
     fid = fopen(curr_filename, 'r');
-    stimuli = textscan(fid, '%s', 'delimiter','\n', 'headerLines', 1);
+    stimuli = textscan(fid, '%s', 'delimiter','\t');%, 'headerLines', 1);
     fclose(fid);
     stimuli_sentences = cell(1, length(stimuli{1}));
     for i =1:length(stimuli{1})

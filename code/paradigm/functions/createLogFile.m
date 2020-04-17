@@ -6,7 +6,7 @@ fn = ['logLocalGlobalParadigm_' timestamp '_' subses '.csv'];
 if is_training
    fn = ['train_', fn]; 
 end
-fn = fullfile('Logs', fn);
+fn = fullfile('logs', fn);
 
 fid=fopen(fn ,'w');
 fprintf(fid,['Event\t'...

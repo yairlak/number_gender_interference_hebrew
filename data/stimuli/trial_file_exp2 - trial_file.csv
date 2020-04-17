@@ -1,0 +1,406 @@
+type,stimFormat,stimFormat_actual,ITI,fixation,ISI,presTime,keyboard,key,responseWindow,responseWindow_actual,bgColor,textColor,feedback,feedbackTime,randomBlock,randomPick,N1_Gen,N2_Gen,N2_Animacy,Acc / UnAcc,VS / SV,violation type,stim1,stim2,stim3,stim4,stim5,sentence
+instructions,.png,.png,,,,,space,,,,,,,,,,,,,,,,הוראות מרכזיות,,,,,
+instructions,.png,.png,,,,,space,,,,,,,,,,,,,,,,instructions-practice,,,,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,,,,,,,,,,,התיבה,ליד,השידה,נשברות,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,,,,,,,,,,,בולמים,הרכב,של,השכנים,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,,,,,,,,,,,הטרקטור,של,הבחור,נוסע,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,,,,,,,,,,,נגמרת,התרופה,של,האורח,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,,,,,,,,,,,מרגשת,המנגינה,של,הבחור,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,,,,,,,,,,,השלט,מאחורי,האישה,נהרסים,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,,,,,,,,,,,המכונית,מלפני,הילד,סוחב,,
+instructions,.png,.png,,,,,space,,,,,,,,,,,,,,,,הוראות סיום שלב התנסות,,,,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,-,המכונית,של,הילדה,עוצרת,,המכונית של הילדה עוצרת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,-,עוצרת,המכונית,של,הילדה,,עוצרת המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,-,המכונית,של,הילדה,עוצרת,,המכונית של הילדה עוצרת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,-,עוצרת,המכונית,של,הילדה,,עוצרת המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,-,המכונית,של,הילדה,עוצרת,,המכונית של הילדה עוצרת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,-,עוצרת,המכונית,של,הילדה,,עוצרת המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,Gen,המכונית,של,הילדה,עוצר,,המכונית של הילדה עוצר  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,Gen,עוצר,המכונית,של,הילדה,,עוצר המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,Num,המכונית,של,הילדה,עוצרות,,המכונית של הילדה עוצרות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,Num,עוצרות,המכונית,של,הילדה,,עוצרות המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,NumGen,המכונית,של,הילדה,עוצרים,,המכונית של הילדה עוצרים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,NumGen,עוצרים,המכונית,של,הילדה,,עוצרים המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,-,המכונית,של,הילדה,נהרסת,,המכונית של הילדה נהרסת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,-,נהרסת,המכונית,של,הילדה,,נהרסת המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,-,המכונית,של,הילדה,נהרסת,,המכונית של הילדה נהרסת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,-,נהרסת,המכונית,של,הילדה,,נהרסת המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,-,המכונית,של,הילדה,נהרסת,,המכונית של הילדה נהרסת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,-,נהרסת,המכונית,של,הילדה,,נהרסת המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,Gen,המכונית,של,הילדה,נהרס,,המכונית של הילדה נהרס  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,Gen,נהרס,המכונית,של,הילדה,,נהרס המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,Num,המכונית,של,הילדה,נהרסות,,המכונית של הילדה נהרסות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,Num,נהרסות,המכונית,של,הילדה,,נהרסות המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,NumGen,המכונית,של,הילדה,נהרסים,,המכונית של הילדה נהרסים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,NumGen,נהרסים,המכונית,של,הילדה,,נהרסים המכונית של הילדה  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,sv,-,הציור,של,הבית,מרגש,את האנשים,הציור של הבית מרגש את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,vs,-,מרגש,הציור,של,הבית,את האנשים,מרגש הציור של הבית את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,sv,-,הציור,של,הבית,מרגש,את האנשים,הציור של הבית מרגש את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,vs,-,מרגש,הציור,של,הבית,את האנשים,מרגש הציור של הבית את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,sv,-,הציור,של,הבית,מרגש,את האנשים,הציור של הבית מרגש את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,vs,-,מרגש,הציור,של,הבית,את האנשים,מרגש הציור של הבית את האנשים 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,sv,Gen,הציור,של,הבית,מרגשת,את האנשים,הציור של הבית מרגשת את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,vs,Gen,מרגשת,הציור,של,הבית,את האנשים,מרגשת הציור של הבית את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,sv,Num,הציור,של,הבית,מרגשים,את האנשים,הציור של הבית מרגשים את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,vs,Num,מרגשים,הציור,של,הבית,את האנשים,מרגשים הציור של הבית את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,sv,NumGen,הציור,של,הבית,מרגשות,את האנשים,הציור של הבית מרגשות את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,M,M,Inanimate,Acc ,vs,NumGen,מרגשות,הציור,של,הבית,את האנשים,מרגשות הציור של הבית את האנשים 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,sv,-,הציור,של,הבית,מתלכלך,,הציור של הבית מתלכלך  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,vs,-,מתלכלך,הציור,של,הבית,,מתלכלך הציור של הבית  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,sv,-,הציור,של,הבית,מתלכלך,,הציור של הבית מתלכלך  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,vs,-,מתלכלך,הציור,של,הבית,,מתלכלך הציור של הבית  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,sv,-,הציור,של,הבית,מתלכלך,,הציור של הבית מתלכלך  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,vs,-,מתלכלך,הציור,של,הבית,,מתלכלך הציור של הבית  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,sv,Gen,הציור,של,הבית,מתלכלכת,,הציור של הבית מתלכלכת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,vs,Gen,מתלכלכת,הציור,של,הבית,,מתלכלכת הציור של הבית  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,sv,Num,הציור,של,הבית,מתלכלכים,,הציור של הבית מתלכלכים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,vs,Num,מתלכלכים,הציור,של,הבית,,מתלכלכים הציור של הבית  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,sv,NumGen,הציור,של,הבית,מתלכלכות,,הציור של הבית מתלכלכות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,M,M,Inanimate,unAcc ,vs,NumGen,מתלכלכות,הציור,של,הבית,,מתלכלכות הציור של הבית  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,sv,-,התמונה,של,המשפחה,מרגשת,את האנשים,התמונה של המשפחה מרגשת את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,vs,-,מרגשת,התמונה,של,המשפחה,את האנשים,מרגשת התמונה של המשפחה את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,sv,-,התמונה,של,המשפחה,מרגשת,את האנשים,התמונה של המשפחה מרגשת את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,vs,-,מרגשת,התמונה,של,המשפחה,את האנשים,מרגשת התמונה של המשפחה את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,sv,-,התמונה,של,המשפחה,מרגשת,את האנשים,התמונה של המשפחה מרגשת את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,vs,-,מרגשת,התמונה,של,המשפחה,את האנשים,מרגשת התמונה של המשפחה את האנשים 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,sv,Gen,התמונה,של,המשפחה,מרגש,את האנשים,התמונה של המשפחה מרגש את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,vs,Gen,מרגש,התמונה,של,המשפחה,את האנשים,מרגש התמונה של המשפחה את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,sv,Num,התמונה,של,המשפחה,מרגשות,את האנשים,התמונה של המשפחה מרגשות את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,vs,Num,מרגשות,התמונה,של,המשפחה,את האנשים,מרגשות התמונה של המשפחה את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,sv,NumGen,התמונה,של,המשפחה,מרגשים,את האנשים,התמונה של המשפחה מרגשים את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,F,Inanimate,Acc ,vs,NumGen,מרגשים,התמונה,של,המשפחה,את האנשים,מרגשים התמונה של המשפחה את האנשים 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,sv,-,התמונה,של,המשפחה,מתנפצת,,התמונה של המשפחה מתנפצת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,vs,-,מתנפצת,התמונה,של,המשפחה,,מתנפצת התמונה של המשפחה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,sv,-,התמונה,של,המשפחה,מתנפצת,,התמונה של המשפחה מתנפצת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,vs,-,מתנפצת,התמונה,של,המשפחה,,מתנפצת התמונה של המשפחה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,sv,-,התמונה,של,המשפחה,מתנפצת,,התמונה של המשפחה מתנפצת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,vs,-,מתנפצת,התמונה,של,המשפחה,,מתנפצת התמונה של המשפחה  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,sv,Gen,התמונה,של,המשפחה,מתנפץ,,התמונה של המשפחה מתנפץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,vs,Gen,מתנפץ,התמונה,של,המשפחה,,מתנפץ התמונה של המשפחה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,sv,Num,התמונה,של,המשפחה,מתנפצות,,התמונה של המשפחה מתנפצות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,vs,Num,מתנפצות,התמונה,של,המשפחה,,מתנפצות התמונה של המשפחה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,sv,NumGen,התמונה,של,המשפחה,מתנפצים,,התמונה של המשפחה מתנפצים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,F,Inanimate,unAcc ,vs,NumGen,מתנפצים,התמונה,של,המשפחה,,מתנפצים התמונה של המשפחה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,sv,-,הטרקטור,מאחורי,התיבה,נוסע,,הטרקטור מאחורי התיבה נוסע  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,vs,-,נוסע,הטרקטור,מאחורי,התיבה,,נוסע הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,sv,-,הטרקטור,מאחורי,התיבה,נוסע,,הטרקטור מאחורי התיבה נוסע  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,vs,-,נוסע,הטרקטור,מאחורי,התיבה,,נוסע הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,sv,-,הטרקטור,מאחורי,התיבה,נוסע,,הטרקטור מאחורי התיבה נוסע  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,vs,-,נוסע,הטרקטור,מאחורי,התיבה,,נוסע הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,sv,Gen,הטרקטור,מאחורי,התיבה,נוסעת ,,הטרקטור מאחורי התיבה נוסעת   
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,sv,Gen,הטרקטור,מאחורי,התיבה,נוסע,,הטרקטור מאחורי התיבה נוסע  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,vs,Gen,נוסעת ,הטרקטור,מאחורי,התיבה,,נוסעת  הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,vs,Num,נוסעים ,הטרקטור,מאחורי,התיבה,,נוסעים  הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,sv,NumGen,הטרקטור,מאחורי,התיבה,נוסעות ,,הטרקטור מאחורי התיבה נוסעות   
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,M,F,Inanimate,Acc ,vs,NumGen,נוסעות ,הטרקטור,מאחורי,התיבה,,נוסעות  הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,sv,-,הטרקטור,מאחורי,התיבה,נהרס,,הטרקטור מאחורי התיבה נהרס  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,vs,-,נהרס,הטרקטור,מאחורי,התיבה,,נהרס הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,sv,-,הטרקטור,מאחורי,התיבה,נהרס,,הטרקטור מאחורי התיבה נהרס  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,vs,-,נהרס,הטרקטור,מאחורי,התיבה,,נהרס הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,sv,-,הטרקטור,מאחורי,התיבה,נהרס,,הטרקטור מאחורי התיבה נהרס  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,vs,-,נהרס,הטרקטור,מאחורי,התיבה,,נהרס הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,sv,Gen,הטרקטור,מאחורי,התיבה,נהרסת,,הטרקטור מאחורי התיבה נהרסת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,vs,Gen,נהרסת,הטרקטור,מאחורי,התיבה,,נהרסת הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,sv,Num,הטרקטור,מאחורי,התיבה,נהרסים,,הטרקטור מאחורי התיבה נהרסים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,vs,Num,נהרסים,הטרקטור,מאחורי,התיבה,,נהרסים הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,sv,NumGen,הטרקטור,מאחורי,התיבה,נהרסות,,הטרקטור מאחורי התיבה נהרסות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,M,F,Inanimate,unAcc ,vs,NumGen,נהרסות,הטרקטור,מאחורי,התיבה,,נהרסות הטרקטור מאחורי התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1001,1200_1001,black,gray,space: לחצת,401,9,1,F,M,Inanimate,Acc ,sv,-,המשאית,מאחורי,השלט,נוסעת ,,המשאית מאחורי השלט נוסעת   
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,F,M,Inanimate,Acc ,vs,-,נוסעת ,המשאית,מאחורי,השלט,,נוסעת  המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1001,1200_1001,black,gray,space: לחצת,401,9,1,F,M,Inanimate,Acc ,sv,-,המשאית,מאחורי,השלט,נוסעת ,,המשאית מאחורי השלט נוסעת   
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,F,M,Inanimate,Acc ,vs,-,נוסעת ,המשאית,מאחורי,השלט,,נוסעת  המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1001,1200_1001,black,gray,space: לחצת,401,9,1,F,M,Inanimate,Acc ,sv,-,המשאית,מאחורי,השלט,נוסעת ,,המשאית מאחורי השלט נוסעת   
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,F,M,Inanimate,Acc ,vs,-,נוסעת ,המשאית,מאחורי,השלט,,נוסעת  המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,F,M,Inanimate,Acc ,sv,Gen,המשאית,מאחורי,השלט,נוסע ,,המשאית מאחורי השלט נוסע   
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,F,M,Inanimate,Acc ,vs,Gen,נוסע ,המשאית,מאחורי,השלט,,נוסע  המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,F,M,Inanimate,Acc ,sv,Num,המשאית,מאחורי,השלט,נוסעות ,,המשאית מאחורי השלט נוסעות   
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,F,M,Inanimate,Acc ,vs,Num,נוסעות ,המשאית,מאחורי,השלט,,נוסעות  המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,F,M,Inanimate,Acc ,sv,NumGen,המשאית,מאחורי,השלט,נוסעים ,,המשאית מאחורי השלט נוסעים   
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,F,M,Inanimate,Acc ,vs,NumGen,נוסעים ,המשאית,מאחורי,השלט,,נוסעים  המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,sv,-,המשאית,מאחורי,השלט,מתקלקלת,,המשאית מאחורי השלט מתקלקלת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,vs,-,מתקלקלת,המשאית,מאחורי,השלט,,מתקלקלת המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,sv,-,המשאית,מאחורי,השלט,מתקלקלת,,המשאית מאחורי השלט מתקלקלת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,vs,-,מתקלקלת,המשאית,מאחורי,השלט,,מתקלקלת המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,sv,-,המשאית,מאחורי,השלט,מתקלקלת,,המשאית מאחורי השלט מתקלקלת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,vs,-,מתקלקלת,המשאית,מאחורי,השלט,,מתקלקלת המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,sv,Gen,המשאית,מאחורי,השלט,מתקלקל,,המשאית מאחורי השלט מתקלקל  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,vs,Gen,מתקלקל,המשאית,מאחורי,השלט,,מתקלקל המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,sv,Num,המשאית,מאחורי,השלט,מתקלקלות,,המשאית מאחורי השלט מתקלקלות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,vs,Num,מתקלקלות,המשאית,מאחורי,השלט,,מתקלקלות המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,sv,NumGen,המשאית,מאחורי,השלט,מתקלקלים,,המשאית מאחורי השלט מתקלקלים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,F,M,Inanimate,unAcc ,vs,NumGen,מתקלקלים,המשאית,מאחורי,השלט,,מתקלקלים המשאית מאחורי השלט  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,sv,-,הציור,של,האישה,משמח,את הילדים,הציור של האישה משמח את הילדים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,vs,-,משמח,הציור,של,האישה,את הילדים,משמח הציור של האישה את הילדים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,sv,-,הציור,של,האישה,משמח,את הילדים,הציור של האישה משמח את הילדים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,vs,-,משמח,הציור,של,האישה,את הילדים,משמח הציור של האישה את הילדים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,sv,-,הציור,של,האישה,משמח,את הילדים,הציור של האישה משמח את הילדים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,vs,-,משמח,הציור,של,האישה,את הילדים,משמח הציור של האישה את הילדים 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,sv,Gen,הציור,של,האישה,משמחת,את הילדים,הציור של האישה משמחת את הילדים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,vs,Gen,משמחת,הציור,של,האישה,את הילדים,משמחת הציור של האישה את הילדים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,sv,Num,הציור,של,האישה,משמחים,את הילדים,הציור של האישה משמחים את הילדים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,vs,Num,משמחים,הציור,של,האישה,את הילדים,משמחים הציור של האישה את הילדים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,sv,NumGen,הציור,של,האישה,משמחות,את הילדים,הציור של האישה משמחות את הילדים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,F,Animate,Acc ,vs,NumGen,משמחות,הציור,של,האישה,את הילדים,משמחות הציור של האישה את הילדים 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,sv,-,הציור,של,האישה,מתלכלך,,הציור של האישה מתלכלך  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,vs,-,מתלכלך,הציור,של,האישה,,מתלכלך הציור של האישה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,sv,-,הציור,של,האישה,מתלכלך,,הציור של האישה מתלכלך  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,vs,-,מתלכלך,הציור,של,האישה,,מתלכלך הציור של האישה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,sv,-,הציור,של,האישה,מתלכלך,,הציור של האישה מתלכלך  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,vs,-,מתלכלך,הציור,של,האישה,,מתלכלך הציור של האישה  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,sv,Gen,הציור,של,האישה,מתלכלכת,,הציור של האישה מתלכלכת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,vs,Gen,מתלכלכת,הציור,של,האישה,,מתלכלכת הציור של האישה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,sv,Num,הציור,של,האישה,מתלכלכים,,הציור של האישה מתלכלכים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,vs,Num,מתלכלכים,הציור,של,האישה,,מתלכלכים הציור של האישה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,sv,NumGen,הציור,של,האישה,מתלכלכות,,הציור של האישה מתלכלכות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,F,Animate,unAcc ,vs,NumGen,מתלכלכות,הציור,של,האישה,,מתלכלכות הציור של האישה  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,sv,-,התמונה,של,האיש,מרגשת,את האנשים,התמונה של האיש מרגשת את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,vs,-,מרגשת,התמונה,של,האיש,את האנשים,מרגשת התמונה של האיש את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,sv,-,התמונה,של,האיש,מרגשת,את האנשים,התמונה של האיש מרגשת את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,vs,-,מרגשת,התמונה,של,האיש,את האנשים,מרגשת התמונה של האיש את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,sv,-,התמונה,של,האיש,מרגשת,את האנשים,התמונה של האיש מרגשת את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,vs,-,מרגשת,התמונה,של,האיש,את האנשים,מרגשת התמונה של האיש את האנשים 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,sv,Gen,התמונה,של,האיש,מרגש,את האנשים,התמונה של האיש מרגש את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,vs,Gen,מרגש,התמונה,של,האיש,את האנשים,מרגש התמונה של האיש את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,sv,Num,התמונה,של,האיש,מרגשות,את האנשים,התמונה של האיש מרגשות את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,vs,Num,מרגשות,התמונה,של,האיש,את האנשים,מרגשות התמונה של האיש את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,sv,NumGen,התמונה,של,האיש,מרגשים,את האנשים,התמונה של האיש מרגשים את האנשים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,F,M,Animate,Acc ,vs,NumGen,מרגשים,התמונה,של,האיש,את האנשים,מרגשים התמונה של האיש את האנשים 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,sv,-,התמונה,של,האיש,מתנפצת,,התמונה של האיש מתנפצת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,vs,-,מתנפצת,התמונה,של,האיש,,מתנפצת התמונה של האיש  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,sv,-,התמונה,של,האיש,מתנפצת,,התמונה של האיש מתנפצת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,vs,-,מתנפצת,התמונה,של,האיש,,מתנפצת התמונה של האיש  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,sv,-,התמונה,של,האיש,מתנפצת,,התמונה של האיש מתנפצת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,vs,-,מתנפצת,התמונה,של,האיש,,מתנפצת התמונה של האיש  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,sv,Gen,התמונה,של,האיש,מתנפץ,,התמונה של האיש מתנפץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,vs,Gen,מתנפץ,התמונה,של,האיש,,מתנפץ התמונה של האיש  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,sv,Num,התמונה,של,האיש,מתנפצות,,התמונה של האיש מתנפצות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,vs,Num,מתנפצות,התמונה,של,האיש,,מתנפצות התמונה של האיש  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,sv,NumGen,התמונה,של,האיש,מתנפצים,,התמונה של האיש מתנפצים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,F,M,Animate,unAcc ,vs,NumGen,מתנפצים,התמונה,של,האיש,,מתנפצים התמונה של האיש  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,sv,-,הרכב,של,הילד,עוצר,,הרכב של הילד עוצר  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,vs,-,עוצר,הרכב,של,הילד,,עוצר הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,sv,-,הרכב,של,הילד,עוצר,,הרכב של הילד עוצר  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,vs,-,עוצר,הרכב,של,הילד,,עוצר הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,sv,-,הרכב,של,הילד,עוצר,,הרכב של הילד עוצר  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,vs,-,עוצר,הרכב,של,הילד,,עוצר הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,sv,Gen,הרכב,של,הילד,עוצרת,,הרכב של הילד עוצרת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,vs,Gen,עוצרת,הרכב,של,הילד,,עוצרת הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,sv,Num,הרכב,של,הילד,עוצרים,,הרכב של הילד עוצרים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,vs,Num,עוצרים,הרכב,של,הילד,,עוצרים הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,sv,NumGen,הרכב,של,הילד,עוצרות,,הרכב של הילד עוצרות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,M,Animate,Acc ,vs,NumGen,עוצרות,הרכב,של,הילד,,עוצרות הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,sv,-,הרכב,של,הילד,נשבר,,הרכב של הילד נשבר  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,vs,-,נשבר,הרכב,של,הילד,,נשבר הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,sv,-,הרכב,של,הילד,נשבר,,הרכב של הילד נשבר  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,vs,-,נשבר,הרכב,של,הילד,,נשבר הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,sv,-,הרכב,של,הילד,נשבר,,הרכב של הילד נשבר  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,vs,-,נשבר,הרכב,של,הילד,,נשבר הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,sv,Gen,הרכב,של,הילד,נשברת,,הרכב של הילד נשברת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,vs,Gen,נשברת,הרכב,של,הילד,,נשברת הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,sv,Num,הרכב,של,הילד,נשברים,,הרכב של הילד נשברים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,vs,Num,נשברים,הרכב,של,הילד,,נשברים הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,sv,NumGen,הרכב,של,הילד,נשברות,,הרכב של הילד נשברות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,M,Animate,unAcc ,vs,NumGen,נשברות,הרכב,של,הילד,,נשברות הרכב של הילד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,100,,,,,,,,לעצור,המכשיר,של ,הפקיד,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,101,,,,,,,,המכונית ,של,הנהגת,לנסוע,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,102,,,,,,,,הטרקטור,ליד,השלט,להתפרק,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,103,,,,,,,,הציור,מאחורי,המשפחה,להתלכלך,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,104,,,,,,,,להתקלקל,המשאית,של,הבחור,,
+instructions,.png,.png,,,,,space,,,,,,,,,,,,,,,,הוראות חצי ניסוי,,,,,הוראות חצי ניסוי     
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,-,המכונה,ליד,האישה,מובילה,את המזוודות,המכונה ליד האישה מובילה את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,-,מובילה,המכונה,ליד,האישה,את המזוודות,מובילה המכונה ליד האישה את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,-,המכונה,ליד,האישה,מובילה,את המזוודות,המכונה ליד האישה מובילה את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,-,מובילה,המכונה,ליד,האישה,את המזוודות,מובילה המכונה ליד האישה את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,-,המכונה,ליד,האישה,מובילה,את המזוודות,המכונה ליד האישה מובילה את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,-,מובילה,המכונה,ליד,האישה,את המזוודות,מובילה המכונה ליד האישה את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,Gen,המכונה,ליד,האישה,מוביל,את המזוודות,המכונה ליד האישה מוביל את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,Gen,מוביל,המכונה,ליד,האישה,את המזוודות,מוביל המכונה ליד האישה את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,Num,המכונה,ליד,האישה,מובילות,את המזוודות,המכונה ליד האישה מובילות את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,Num,מובילות,המכונה,ליד,האישה,את המזוודות,מובילות המכונה ליד האישה את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,sv,NumGen,המכונה,ליד,האישה,מובילים,את המזוודות,המכונה ליד האישה מובילים את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,1,1,F,F,Animate,Acc ,vs,NumGen,מובילים,המכונה,ליד,האישה,את המזוודות,מובילים המכונה ליד האישה את המזוודות 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,-,המכונה,ליד,האישה,נשברת,,המכונה ליד האישה נשברת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,-,נשברת,המכונה,ליד,האישה,,נשברת המכונה ליד האישה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,-,המכונה,ליד,האישה,נשברת,,המכונה ליד האישה נשברת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,-,נשברת,המכונה,ליד,האישה,,נשברת המכונה ליד האישה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,-,המכונה,ליד,האישה,נשברת,,המכונה ליד האישה נשברת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,-,נשברת,המכונה,ליד,האישה,,נשברת המכונה ליד האישה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,Gen,המכונה,ליד,האישה,נשבר,,המכונה ליד האישה נשבר  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,Gen,נשבר,המכונה,ליד,האישה,,נשבר המכונה ליד האישה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,Num,המכונה,ליד,האישה,נשברות,,המכונה ליד האישה נשברות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,Num,נשברות,המכונה,ליד,האישה,,נשברות המכונה ליד האישה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,sv,NumGen,המכונה,ליד,האישה,נשברים,,המכונה ליד האישה נשברים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,2,1,F,F,Animate,unAcc ,vs,NumGen,נשברים,המכונה,ליד,האישה,,נשברים המכונה ליד האישה  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,sv,-,המשאית ,ליד,התיבה,גוררת,את הרכב,המשאית  ליד התיבה גוררת את הרכב 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,vs,-,גוררת,המשאית ,ליד,התיבה,את הרכב,גוררת המשאית  ליד התיבה את הרכב 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,sv,-,המשאית ,ליד,התיבה,גוררת,את הרכב,המשאית  ליד התיבה גוררת את הרכב 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,vs,-,גוררת,המשאית ,ליד,התיבה,את הרכב,גוררת המשאית  ליד התיבה את הרכב 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,sv,-,המשאית ,ליד,התיבה,גוררת,את הרכב,המשאית  ליד התיבה גוררת את הרכב 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,vs,-,גוררת,המשאית ,ליד,התיבה,את הרכב,גוררת המשאית  ליד התיבה את הרכב 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,sv,Gen,המשאית ,ליד,התיבה,גורר,את הרכב,המשאית  ליד התיבה גורר את הרכב 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,vs,Gen,גורר,המשאית ,ליד,התיבה,את הרכב,גורר המשאית  ליד התיבה את הרכב 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,sv,Num,המשאית ,ליד,התיבה,גוררות,את הרכב,המשאית  ליד התיבה גוררות את הרכב 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,vs,Num,גוררות,המשאית ,ליד,התיבה,את הרכב,גוררות המשאית  ליד התיבה את הרכב 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,sv,NumGen,המשאית ,ליד,התיבה,גוררים,את הרכב,המשאית  ליד התיבה גוררים את הרכב 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,3,1,F,F,Inanimate,Acc ,vs,NumGen,גוררים,המשאית ,ליד,התיבה,את הרכב,גוררים המשאית  ליד התיבה את הרכב 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,sv,-,המשאית ,ליד,התיבה,מתפרקת,,המשאית  ליד התיבה מתפרקת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,vs,-,מתפרקת,המשאית ,ליד,התיבה,,מתפרקת המשאית  ליד התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,sv,-,המשאית ,ליד,התיבה,מתפרקת,,המשאית  ליד התיבה מתפרקת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,vs,-,מתפרקת,המשאית ,ליד,התיבה,,מתפרקת המשאית  ליד התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,sv,-,המשאית ,ליד,התיבה,מתפרקת,,המשאית  ליד התיבה מתפרקת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,vs,-,מתפרקת,המשאית ,ליד,התיבה,,מתפרקת המשאית  ליד התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,sv,Gen,המשאית ,ליד,התיבה,מתפרק,,המשאית  ליד התיבה מתפרק  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,vs,Gen,מתפרק,המשאית ,ליד,התיבה,,מתפרק המשאית  ליד התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,sv,Num,המשאית ,ליד,התיבה,מתפרקות,,המשאית  ליד התיבה מתפרקות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,vs,Num,מתפרקות,המשאית ,ליד,התיבה,,מתפרקות המשאית  ליד התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,sv,NumGen,המשאית ,ליד,התיבה,מתפרקים,,המשאית  ליד התיבה מתפרקים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,4,1,F,F,Inanimate,unAcc ,vs,NumGen,מתפרקים,המשאית ,ליד,התיבה,,מתפרקים המשאית  ליד התיבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,sv,-,המכונית,ליד,העץ,עוצרת,,המכונית ליד העץ עוצרת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,vs,-,עוצרת,המכונית,ליד,העץ,,עוצרת המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,sv,-,המכונית,ליד,העץ,עוצרת,,המכונית ליד העץ עוצרת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,vs,-,עוצרת,המכונית,ליד,העץ,,עוצרת המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,sv,-,המכונית,ליד,העץ,עוצרת,,המכונית ליד העץ עוצרת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,vs,-,עוצרת,המכונית,ליד,העץ,,עוצרת המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,sv,Gen,המכונית,ליד,העץ,עוצר,,המכונית ליד העץ עוצר  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,vs,Gen,עוצר,המכונית,ליד,העץ,,עוצר המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,sv,Num,המכונית,ליד,העץ,עוצרות,,המכונית ליד העץ עוצרות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,vs,Num,עוצרות,המכונית,ליד,העץ,,עוצרות המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,sv,NumGen,המכונית,ליד,העץ,עוצרים,,המכונית ליד העץ עוצרים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,5,1,F,M,Inanimate,Acc ,vs,NumGen,עוצרים,המכונית,ליד,העץ,,עוצרים המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,sv,-,המכונית,ליד,העץ,נכבת,,המכונית ליד העץ נכבת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,vs,-,נכבת,המכונית,ליד,העץ,,נכבת המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,sv,-,המכונית,ליד,העץ,נכבת,,המכונית ליד העץ נכבת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,vs,-,נכבת,המכונית,ליד,העץ,,נכבת המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,sv,-,המכונית,ליד,העץ,נכבת,,המכונית ליד העץ נכבת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,vs,-,נכבת,המכונית,ליד,העץ,,נכבת המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,sv,Gen,המכונית,ליד,העץ,נכבה,,המכונית ליד העץ נכבה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,vs,Gen,נכבה,המכונית,ליד,העץ,,נכבה המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,sv,Num,המכונית,ליד,העץ,נכבות,,המכונית ליד העץ נכבות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,vs,Num,נכבות,המכונית,ליד,העץ,,נכבות המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,sv,NumGen,המכונית,ליד,העץ,נכבים,,המכונית ליד העץ נכבים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,6,1,F,M,Inanimate,unAcc ,vs,NumGen,נכבים,המכונית,ליד,העץ,,נכבים המכונית ליד העץ  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,-,המכונה,של,הפקיד,שוקלת,את התיקים,המכונה של הפקיד שוקלת את התיקים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,-,שוקלת,המכונה,של,הפקיד,את התיקים,שוקלת המכונה של הפקיד את התיקים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,-,המכונה,של,הפקיד,שוקלת,את התיקים,המכונה של הפקיד שוקלת את התיקים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,-,שוקלת,המכונה,של,הפקיד,את התיקים,שוקלת המכונה של הפקיד את התיקים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,-,המכונה,של,הפקיד,שוקלת,את התיקים,המכונה של הפקיד שוקלת את התיקים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,-,שוקלת,המכונה,של,הפקיד,את התיקים,שוקלת המכונה של הפקיד את התיקים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,Gen,המכונה,של,הפקיד,שוקל,את התיקים,המכונה של הפקיד שוקל את התיקים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,Gen,שוקל,המכונה,של,הפקיד,את התיקים,שוקל המכונה של הפקיד את התיקים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,Num,המכונה,של,הפקיד,שוקלות,את התיקים,המכונה של הפקיד שוקלות את התיקים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,Num,שוקלות,המכונה,של,הפקיד,את התיקים,שוקלות המכונה של הפקיד את התיקים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,NumGen,המכונה,של,הפקיד,שוקלים,את התיקים,המכונה של הפקיד שוקלים את התיקים 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,7,1,F,M,Animate,Acc ,sv,NumGen,שוקלים,המכונה,של,הפקיד,את התיקים,שוקלים המכונה של הפקיד את התיקים 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,-,המכונה,של,הפקיד,נדלקת,,המכונה של הפקיד נדלקת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,-,נדלקת,המכונה,של,הפקיד,,נדלקת המכונה של הפקיד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,-,המכונה,של,הפקיד,נדלקת,,המכונה של הפקיד נדלקת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,-,נדלקת,המכונה,של,הפקיד,,נדלקת המכונה של הפקיד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,-,המכונה,של,הפקיד,נדלקת,,המכונה של הפקיד נדלקת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,-,נדלקת,המכונה,של,הפקיד,,נדלקת המכונה של הפקיד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,Gen,המכונה,של,הפקיד,נדלק,,המכונה של הפקיד נדלק  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,Gen,נדלק,המכונה,של,הפקיד,,נדלק המכונה של הפקיד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,Num,המכונה,של,הפקיד,נדלקות,,המכונה של הפקיד נדלקות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,Num,נדלקות,המכונה,של,הפקיד,,נדלקות המכונה של הפקיד  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,NumGen,המכונה,של,הפקיד,נדלקים,,המכונה של הפקיד נדלקים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,8,1,F,M,Animate,unAcc ,sv,NumGen,נדלקים,המכונה,של,הפקיד,,נדלקים המכונה של הפקיד  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,sv,-,המכשיר,ליד,האיש,מוביל,את המזוודות,המכשיר ליד האיש מוביל את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,vs,-,מוביל,המכשיר,ליד,האיש,את המזוודות,מוביל המכשיר ליד האיש את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,sv,-,המכשיר,ליד,האיש,מוביל,את המזוודות,המכשיר ליד האיש מוביל את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,vs,-,מוביל,המכשיר,ליד,האיש,את המזוודות,מוביל המכשיר ליד האיש את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,sv,-,המכשיר,ליד,האיש,מוביל,את המזוודות,המכשיר ליד האיש מוביל את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,vs,-,מוביל,המכשיר,ליד,האיש,את המזוודות,מוביל המכשיר ליד האיש את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,sv,Gen,המכשיר,ליד,האיש,מובילה,את המזוודות,המכשיר ליד האיש מובילה את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,vs,Gen,מובילה,המכשיר,ליד,האיש,את המזוודות,מובילה המכשיר ליד האיש את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,sv,Num,המכשיר,ליד,האיש,מובילים,את המזוודות,המכשיר ליד האיש מובילים את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,vs,Num,מובילים,המכשיר,ליד,האיש,את המזוודות,מובילים המכשיר ליד האיש את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,sv,NumGen,המכשיר,ליד,האיש,מובילות,את המזוודות,המכשיר ליד האיש מובילות את המזוודות 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,9,1,M,M,Animate,Acc ,vs,NumGen,מובילות,המכשיר,ליד,האיש,את המזוודות,מובילות המכשיר ליד האיש את המזוודות 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,sv,-,המכשיר,של,האיש,מתפרק,,המכשיר של האיש מתפרק  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,vs,-,מתפרק,המכשיר,של,האיש,,מתפרק המכשיר של האיש  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,sv,-,המכשיר,של,האיש,מתפרק,,המכשיר של האיש מתפרק  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,vs,-,מתפרק,המכשיר,של,האיש,,מתפרק המכשיר של האיש  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,sv,-,המכשיר,של,האיש,מתפרק,,המכשיר של האיש מתפרק  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,vs,-,מתפרק,המכשיר,של,האיש,,מתפרק המכשיר של האיש  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,sv,Gen,המכשיר,של,האיש,מתפרקת,,המכשיר של האיש מתפרקת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,vs,Gen,מתפרקת,המכשיר,של,האיש,,מתפרקת המכשיר של האיש  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,sv,Num,המכשיר,של,האיש,מתפרקים,,המכשיר של האיש מתפרקים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,vs,Num,מתפרקים,המכשיר,של,האיש,,מתפרקים המכשיר של האיש  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,sv,NumGen,המכשיר,של,האיש,מתפרקות,,המכשיר של האיש מתפרקות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,10,1,M,M,Animate,unAcc ,vs,NumGen,מתפרקות,המכשיר,של,האיש,,מתפרקות המכשיר של האיש  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,sv,-,הטרקטור,ליד,השלט,גורר,את המכונית,הטרקטור ליד השלט גורר את המכונית 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,vs,-,גורר,הטרקטור,ליד,השלט,את המכונית,גורר הטרקטור ליד השלט את המכונית 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,sv,-,הטרקטור,ליד,השלט,גורר,את המכונית,הטרקטור ליד השלט גורר את המכונית 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,vs,-,גורר,הטרקטור,ליד,השלט,את המכונית,גורר הטרקטור ליד השלט את המכונית 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,sv,-,הטרקטור,ליד,השלט,גורר,את המכונית,הטרקטור ליד השלט גורר את המכונית 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,vs,-,גורר,הטרקטור,ליד,השלט,את המכונית,גורר הטרקטור ליד השלט את המכונית 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,sv,Gen,הטרקטור,ליד,השלט,גוררת,את המכונית,הטרקטור ליד השלט גוררת את המכונית 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,vs,Gen,גוררת,הטרקטור,ליד,השלט,את המכונית,גוררת הטרקטור ליד השלט את המכונית 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,sv,Num,הטרקטור,ליד,השלט,גוררים,את המכונית,הטרקטור ליד השלט גוררים את המכונית 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,vs,Num,גוררים,הטרקטור,ליד,השלט,את המכונית,גוררים הטרקטור ליד השלט את המכונית 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,sv,NumGen,הטרקטור,ליד,השלט,גוררות,את המכונית,הטרקטור ליד השלט גוררות את המכונית 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,11,1,M,M,Inanimate,Acc ,vs,NumGen,גוררות,הטרקטור,ליד,השלט,את המכונית,גוררות הטרקטור ליד השלט את המכונית 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,sv,-,הטרקטור,ליד,השלט,מתקלקל,,הטרקטור ליד השלט מתקלקל  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,vs,-,מתקלקל,הטרקטור,ליד,השלט,,מתקלקל הטרקטור ליד השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,sv,-,הטרקטור,ליד,השלט,מתקלקל,,הטרקטור ליד השלט מתקלקל  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,vs,-,מתקלקל,הטרקטור,ליד,השלט,,מתקלקל הטרקטור ליד השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,sv,-,הטרקטור,ליד,השלט,מתקלקל,,הטרקטור ליד השלט מתקלקל  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,vs,-,מתקלקל,הטרקטור,ליד,השלט,,מתקלקל הטרקטור ליד השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,sv,Gen,הטרקטור,ליד,השלט,מתקלקלת,,הטרקטור ליד השלט מתקלקלת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,vs,Gen,מתקלקלת,הטרקטור,ליד,השלט,,מתקלקלת הטרקטור ליד השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,sv,Num,הטרקטור,ליד,השלט,מתקלקלים,,הטרקטור ליד השלט מתקלקלים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,vs,Num,מתקלקלים,הטרקטור,ליד,השלט,,מתקלקלים הטרקטור ליד השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,sv,NumGen,הטרקטור,ליד,השלט,מתקלקלות,,הטרקטור ליד השלט מתקלקלות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,12,1,M,M,Inanimate,unAcc ,vs,NumGen,מתקלקלות,הטרקטור,ליד,השלט,,מתקלקלות הטרקטור ליד השלט  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,sv,-,הרכב,ליד,מנורה,בולם,,הרכב ליד מנורה בולם  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,vs,-,בולם,הרכב,ליד,מנורה,,בולם הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,sv,-,הרכב,ליד,מנורה,בולם,,הרכב ליד מנורה בולם  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,vs,-,בולם,הרכב,ליד,מנורה,,בולם הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,sv,-,הרכב,ליד,מנורה,בולם,,הרכב ליד מנורה בולם  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,vs,-,בולם,הרכב,ליד,מנורה,,בולם הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,sv,Gen,הרכב,ליד,מנורה,בולמת,,הרכב ליד מנורה בולמת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,vs,Gen,בולמת,הרכב,ליד,מנורה,,בולמת הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,sv,Num,הרכב,ליד,מנורה,בולמים,,הרכב ליד מנורה בולמים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,vs,Num,בולמים,הרכב,ליד,מנורה,,בולמים הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,sv,NumGen,הרכב,ליד,מנורה,בולמות,,הרכב ליד מנורה בולמות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,13,1,M,F,Inanimate,Acc ,vs,NumGen,בולמות,הרכב,ליד,מנורה,,בולמות הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,sv,-,הרכב,ליד,מנורה,נרטב,,הרכב ליד מנורה נרטב  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,vs,-,נרטב,הרכב,ליד,מנורה,,נרטב הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,sv,-,הרכב,ליד,מנורה,נרטב,,הרכב ליד מנורה נרטב  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,vs,-,נרטב,הרכב,ליד,מנורה,,נרטב הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,sv,-,הרכב,ליד,מנורה,נרטב,,הרכב ליד מנורה נרטב  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,vs,-,נרטב,הרכב,ליד,מנורה,,נרטב הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,sv,Gen,הרכב,ליד,מנורה,נרטבת,,הרכב ליד מנורה נרטבת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,vs,Gen,נרטבת,הרכב,ליד,מנורה,,נרטבת הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,sv,Num,הרכב,ליד,מנורה,נרטבים,,הרכב ליד מנורה נרטבים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,vs,Num,נרטבים,הרכב,ליד,מנורה,,נרטבים הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,sv,NumGen,הרכב,ליד,מנורה,נרטבות,,הרכב ליד מנורה נרטבות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,14,1,M,F,Inanimate,unAcc ,vs,NumGen,נרטבות,הרכב,ליד,מנורה,,נרטבות הרכב ליד מנורה  
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,-,המכשיר,של ,הפקידה,מרים,את הציוד,המכשיר של  הפקידה מרים את הציוד 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,-,מרים,המכשיר,של ,הפקידה,את הציוד,מרים המכשיר של  הפקידה את הציוד 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,-,המכשיר,של ,הפקידה,מרים,את הציוד,המכשיר של  הפקידה מרים את הציוד 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,-,מרים,המכשיר,של ,הפקידה,את הציוד,מרים המכשיר של  הפקידה את הציוד 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,-,המכשיר,של ,הפקידה,מרים,את הציוד,המכשיר של  הפקידה מרים את הציוד 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,-,מרים,המכשיר,של ,הפקידה,את הציוד,מרים המכשיר של  הפקידה את הציוד 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,Gen,המכשיר,של ,הפקידה,מרימה,את הציוד,המכשיר של  הפקידה מרימה את הציוד 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,Gen,מרימה,המכשיר,של ,הפקידה,את הציוד,מרימה המכשיר של  הפקידה את הציוד 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,Num,המכשיר,של ,הפקידה,מרימים,את הציוד,המכשיר של  הפקידה מרימים את הציוד 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,Num,מרימים,המכשיר,של ,הפקידה,את הציוד,מרימים המכשיר של  הפקידה את הציוד 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,NumGen,המכשיר,של ,הפקידה,מרימות,את הציוד,המכשיר של  הפקידה מרימות את הציוד 
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,15,1,M,F,Animate,Acc ,sv,NumGen,מרימות,המכשיר,של ,הפקידה,את הציוד,מרימות המכשיר של  הפקידה את הציוד 
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,-,המכשיר,של ,הפקידה,נופל,,המכשיר של  הפקידה נופל  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,-,נופל,המכשיר,של ,הפקידה,,נופל המכשיר של  הפקידה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,-,המכשיר,של ,הפקידה,נופל,,המכשיר של  הפקידה נופל  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,-,נופל,המכשיר,של ,הפקידה,,נופל המכשיר של  הפקידה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,-,המכשיר,של ,הפקידה,נופל,,המכשיר של  הפקידה נופל  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,-,נופל,המכשיר,של ,הפקידה,,נופל המכשיר של  הפקידה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,Gen,המכשיר,של ,הפקידה,נופלת,,המכשיר של  הפקידה נופלת  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,Gen,נופלת,המכשיר,של ,הפקידה,,נופלת המכשיר של  הפקידה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,Num,המכשיר,של ,הפקידה,נופלים,,המכשיר של  הפקידה נופלים  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,Num,נופלים,המכשיר,של ,הפקידה,,נופלים המכשיר של  הפקידה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,NumGen,המכשיר,של ,הפקידה,נופלות,,המכשיר של  הפקידה נופלות  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,16,1,M,F,Animate,unAcc ,sv,NumGen,נופלות,המכשיר,של ,הפקידה,,נופלות המכשיר של  הפקידה  
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,200,,,,,,,,לשמח,התמונה,של,הילד,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,201,,,,,,,,הרכב,ליד,הנהג,לבלום,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,202,,,,,,,,המכונה,של,הפקידה,להתפרק,,
+test,word,.png,1600,ITI,150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,203,,,,,,,,להיגמר,הגרנולה,של,הבחורה,,
+test,word,.png,1600,ITI,150;150;150;150,250;250;250;250,space,space,lastStim_1000,1200_1000,black,gray,space: לחצת,400,204,,,,,,,,המכשיר,של,הבחור,לשקול,את המזוודות,

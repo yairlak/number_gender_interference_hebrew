@@ -21,7 +21,7 @@ else
 end
 %%%%%%%%% PATHS
 params.path2intro_slide = fullfile('Stimuli','instructions_sentences.png');
-params.path2stim        = fullfile('..', 'stimuli', 'SUBJECT_FILES');
+params.path2stim        = fullfile('..', '..', 'data', 'stimuli');
 
 if ismac || isunix %comp == 'h'
     params.sio  = '/dev/tty.usbserial';

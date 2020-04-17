@@ -1,0 +1,7 @@
+nounpp_animate_accusative	ה תלמיד ליד ה גלידה מלמד את ה מנהלות	animate	masculine	singular	inanimate	feminine	singular	animate	feminine	plural	accusative	מלמדים	מלמדת	מלמדות
+nounpp_animate_accusative	ה סטודנטים מלפני ה מיטה מחפשים את ה חברות	animate	masculine	plural	inanimate	feminine	singular	animate	feminine	plural	accusative	מחפש	מחפשות	מחפשת
+nounpp_animate_accusative	ה סטודנטים ליד ה מחשב מכירים את ה אמריקאי	animate	masculine	plural	inanimate	masculine	singular	animate	masculine	singular	accusative	מכיר	מכירות	מכירה
+nounpp_animate_accusative	ה חבר לצד ה כסא מלמד את ה סטודנטים	animate	masculine	singular	inanimate	masculine	singular	animate	masculine	plural	accusative	מלמדים	מלמדת	מלמדות
+nounpp_animate_accusative	ה נהג מלפני ה מעיל מחזיק את ה מיצים	animate	masculine	singular	inanimate	masculine	singular	inanimate	masculine	plural	accusative	מחזיקים	מחזיקה	מחזיקות
+nounpp_animate_accusative	ה פקיד ליד ה כדור מצלם את ה שוקולד	animate	masculine	singular	inanimate	masculine	singular	inanimate	masculine	singular	accusative	מצלמים	מצלמת	מצלמות
+nounpp_animate_accusative	ה חברים ליד ה מיטה מרגישים את ה שכן	animate	masculine	plural	inanimate	feminine	singular	animate	masculine	singular	accusative	מרגיש	מרגישות	מרגישה
